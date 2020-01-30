@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(232, 232, 232);
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+}
+
+.select-container>div {
+    margin: 0.5rem;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 2.4rem;
+}
+
+.search-container>div {
+    margin: 0.5rem;
+}
+
+input[type=text] {
+    width: 345px;
+    padding: 4px 36px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: larger;
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-right: 4rem;
+}
+
+.search-results {
+    display: flex;
+    justify-content: center;
+    color: green;
+    margin-right: 4rem;
+}
+
+.countries-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 6rem;
+}
+
+.country-block {
+    width: 30%;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.country-data {
+    margin-top: 1rem;
+}
+
+img {
+    max-width: 100%;
+    width: 300px;
+    height: 200px;
+    box-shadow: 10px 10px 5px grey;
+}

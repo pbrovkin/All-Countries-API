@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>All Countries</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="select-container">
+
+            <div>
+                <label for="search-value">search by:</label>
+                <select name="search-values" id="search-values">
+                    <option value="name">name</option>
+                    <option value="capital">capital</option>
+                    <option value="language">language</option>
+                    <option value="population">population</option>
+                </select>
+            </div>
+            <div>
+                <label for="search-params">parameters:</label>
+                <select name="search-params" id="search-params">
+                    <option value="start-letters">starts with</option>
+                    <option value="includ-letters">includes</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <div><input type="text" id="input"></div>
+            <div>
+                <input type="submit" id="reverse" value="reverse">
+            </div>
+        </div>
+
+        <div class="error-message">
+            <div id="error"></div>
+        </div>
+
+        <div class="search-results">
+            <div id="results"></div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="countries-container"></div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

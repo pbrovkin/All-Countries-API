@@ -1,2 +1,2 @@
 # All-Countries-API
-All Countries is the world's countries list accessing REST API
+All Countries is application accessing REST API
